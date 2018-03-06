@@ -1,0 +1,44 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/news/detail",
+    "pages/tel/index",
+    "pages/map/index",
+    "pages/reg/index"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "西安雁塔友好医院",
+    "navigationBarTextStyle":"black"
+  },
+    "tabBar": {
+      "color": "#dddddd",
+      "selectedColor": "#459ae9",
+      "borderStyle": "black",
+      "list": [
+        {
+          "pagePath": "pages/tel/index",
+          "iconPath": "images/tel_r.png",
+          "selectedIconPath": "images/tel_b.png",
+          "text": "电话咨询"
+        },
+        {
+          "pagePath": "pages/map/index",
+          "iconPath": "images/map_r.png",
+          "selectedIconPath": "images/map_b.png",
+          "text": "来院路线"
+        },
+        {
+          "pagePath": "pages/reg/index",
+          "iconPath": "images/reg_r.png",
+          "selectedIconPath": "images/reg_b.png",
+          "text": "预约挂号"
+        }
+      ]
+    },
+  "networkTimeout":{
+    "request":10000
+  },
+  "debug":true
+}

@@ -1,0 +1,32 @@
+
+<swiper indicator-dots="{{indicatorDots}}"
+  autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+  <block wx:for="{{imgUrls}}">
+    <swiper-item>
+      <image src="{{item}}" mode="aspectFill" class="slide-image" />
+    </swiper-item>
+  </block>
+</swiper>
+<view class='intro'>
+    <view class='title'>医院简介</view>
+    <view class="">
+    <text>
+    西安雁塔友好医院的前身是陕西省红十字友好医院， 省、市城镇医保（新农合）定点医院
+    </text>
+    </view>
+</view>
+
+<view class="news_info">
+  <view class='title'>医院新闻</view>
+   <view wx:for="{{list}}" wx:key="{{item.id}}">
+   <navigator url='../news/detail?id={{item.id}}'>
+    <view class="news_pic">
+        <image style="width:90px; height:80px; background-color: #fff;" mode="center"src="{{item.label_img}} "></image>
+    </view>
+    <view class="news_words">
+         <view class="news-item-title"><text>{{item.title}}</text></view>
+        <view class="news-item-subhead"><text>{{item.subhead}}</text></view>
+    </view>
+    </navigator>
+   </view>
+</view>

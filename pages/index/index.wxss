@@ -1,0 +1,14 @@
+
+.slide-image{width: 100%;height:150px;}
+.title {
+  font-size:20px;
+  font-weight:bold;
+  border-bottom:1px solid #000;
+  margin-top:10px;
+}
+.intro{padding:0 10px;}
+.news_info{padding: 0 10px;}
+.news_pic{width: 30%;display: inline-block;}
+.news_words{width:60%;display: inline-block;padding:5%;}
+.news-item-title{font-size:20px;font-weight: bold;line-height: 40px;}
+.news-item-subhead{line-height:20px;}
