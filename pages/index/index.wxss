@@ -8,7 +8,7 @@
 }
 .intro{padding:0 10px;}
 .news_info{padding: 0 10px;}
-.news_pic{width: 30%;display: inline-block;}
-.news_words{width:60%;display: inline-block;padding:5%;}
-.news-item-title{font-size:20px;font-weight: bold;line-height: 40px;}
-.news-item-subhead{line-height:20px;}
+.news_pic{width:110px;padding-top:20px;}
+.news_words{padding:10px;}
+.news-item-title{font-size:16px;font-weight: bold;line-height:26px;}
+.news-item-subhead{line-height:20px;font-size:14px;}

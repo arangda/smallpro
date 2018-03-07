@@ -21,7 +21,7 @@ Page({
         },
         success:function(res){
           console.log(res.data)
-          WxParse.wxParse('article', 'html', res.data.content, that, 5);
+          WxParse.wxParse('article', 'html', res.data.content, that, 20);
           that.setData({
               con:res.data
           })

@@ -1,5 +1,6 @@
 <import src="../../wxParse/wxParse.wxml"/>
 <view class="title">{{con.title}}</view>
+<view class="message">{{con.create_time}}</view>
 <view class="content">
     <template is="wxParse" data="{{wxParseData:article.nodes}}"/>
 </view>

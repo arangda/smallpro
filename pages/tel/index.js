@@ -5,14 +5,17 @@ Page({
    * 页面的初始数据
    */
   data: {
-  
+    phone_num: '02988233132'
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-  
+    wx.makePhoneCall({
+      phoneNumber: this.data.phone_num //仅为示例，并非真实的电话号码
+    })
+    return false;
   },
 
   /**

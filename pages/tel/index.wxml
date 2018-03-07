@@ -1,2 +1,5 @@
 <!--pages/tel/index.wxml-->
+<view class='con_tel'>
+
+</view>
 <text>pages/tel/index.wxml</text>

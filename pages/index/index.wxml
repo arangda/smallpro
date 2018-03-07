@@ -17,16 +17,18 @@
 </view>
 
 <view class="news_info">
-  <view class='title'>医院新闻</view>
-   <view wx:for="{{list}}" wx:key="{{item.id}}">
-   <navigator url='../news/detail?id={{item.id}}'>
+    <view class='title'>医院新闻</view>
+    <view wx:for="{{list}}" wx:key="{{item.id}}" style="display: flex;flex-direction: row;">
+   
     <view class="news_pic">
-        <image style="width:90px; height:80px; background-color: #fff;" mode="center"src="{{item.label_img}} "></image>
+        <image style="width:90px; height:80px; background-color: #fff;" mode="aspectFit"src="{{item.label_img}} "></image>
     </view>
     <view class="news_words">
+         <navigator url='../news/detail?id={{item.id}}'>
          <view class="news-item-title"><text>{{item.title}}</text></view>
-        <view class="news-item-subhead"><text>{{item.subhead}}</text></view>
+         <view class="news-item-subhead"><text>{{item.subhead}}</text></view>
+         </navigator>
     </view>
-    </navigator>
+    
    </view>
 </view>

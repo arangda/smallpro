@@ -1,1 +1,33 @@
-{}
+{
+    "tabBar": {
+      "color": "#2c2c2c",
+      "selectedColor": "#d81e06",
+      "borderStyle": "black",
+      "list": [
+        {
+          "pagePath": "pages/index/index",
+          "iconPath": "images/home_b.png",
+          "selectedIconPath": "images/home_r.png",
+          "text": "首页"
+        },
+        {
+          "pagePath": "pages/tel/index",
+          "iconPath": "images/tel_b.png",
+          "selectedIconPath": "images/tel_r.png",
+          "text": "电话咨询"
+        },
+        {
+          "pagePath": "pages/map/index",
+          "iconPath": "images/map_b.png",
+          "selectedIconPath": "images/map_r.png",
+          "text": "来院路线"
+        },
+        {
+          "pagePath": "pages/reg/index",
+          "iconPath": "images/reg_b.png",
+          "selectedIconPath": "images/reg_r.png",
+          "text": "预约挂号"
+        }
+      ]
+    }
+}
