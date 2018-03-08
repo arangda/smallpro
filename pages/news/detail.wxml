@@ -4,3 +4,5 @@
 <view class="content">
     <template is="wxParse" data="{{wxParseData:article.nodes}}"/>
 </view>
+<import src="../../template/tabBar.wxml" />  
+<template is="tabBar" data="{{tabBar: tabBar}}" /> 
